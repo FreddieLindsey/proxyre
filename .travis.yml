@@ -6,6 +6,9 @@ language: ruby
 
 cacher: bundler
 
+notifications:
+  email: false
+
 script:
   - bundle exec rspec
   - gem build proxyre.gemspec
